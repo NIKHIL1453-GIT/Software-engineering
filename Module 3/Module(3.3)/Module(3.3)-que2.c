@@ -1,17 +1,9 @@
 /*WAP of Addition, Subtraction, Multiplication and Division using Switch 
 case.(Must Be Menu Driven)*/
 #include<stdio.h>
-int main()
+int simpCalc(choice)
 {
-	int num1,num2,choice;
-	
-	printf("\n1.Addition");
-	printf("\n2.subtraction");
-	printf("\n3.Multiplication");
-	printf("\n4.Division");
-	printf("\nEnter your choice = ");
-	scanf("%d",&choice);
-	
+	int num1,num2;
 	switch(choice)
 	{
 		case 1 :
@@ -44,5 +36,18 @@ int main()
 		break;
 		default : printf("\nInvalid input!");
 	}	
+}
+int main()
+{
+	int choice;
+	
+	printf("\n1.Addition");
+	printf("\n2.subtraction");
+	printf("\n3.Multiplication");
+	printf("\n4.Division");
+	printf("\nEnter your choice = ");
+	scanf("%d",&choice);
+	
+	simpCalc(choice);
 	return 0;
 }
