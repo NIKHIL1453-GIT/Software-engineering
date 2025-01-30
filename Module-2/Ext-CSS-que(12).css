@@ -1,0 +1,22 @@
+.dynamic-btn {
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.dynamic-btn:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.dynamic-btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px darkblue;
+    background-color: lightgreen;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roulette</title>
+</head>
+<style>
+    body
+    {
+        background-color: lightgreen;
+        text-align: center;
+    }
+    table
+    {
+        border: 2px solid white;
+        background-color: white;
+        margin: 5rem 5rem;
+        width: 80rem;
+        height: 18rem;
+        color: white;
+    }
+    table td
+    {
+        text-align: center;
+    }
+    .blk
+    {
+        background-color: black;
+    }
+    .rdd
+    {
+        background-color: red;
+    }
+    .grr
+    {
+        background-color: green;
+    }
+</style>
+<body>
+    <h2>European Roulette</h2>
+    <table>
+        <tr>
+            <td rowspan="5" class="grr">0</td>
+            <td class="rdd">3</td>
+            <td class="blk">6</td>
+            <td class="rdd">9</td>
+            <td class="rdd">12</td>
+            <td class="blk">15</td>
+            <td class="rdd">18</td>
+            <td class="rdd">21</td>
+            <td class="blk">24</td>
+            <td class="rdd">27</td>
+            <td class="rdd">30</td>
+            <td class="blk">33</td>
+            <td class="rdd">36</td>
+            <td class="grr">2to1</td>
+        </tr>
+        <tr>
+            <td class="blk">2</td>
+            <td class="rdd">5</td>
+            <td class="blk">8</td>
+            <td class="blk">11</td>
+            <td class="rdd">14</td>
+            <td class="blk">17</td>
+            <td class="blk">20</td>
+            <td class="rdd">23</td>
+            <td class="blk">26</td>
+            <td class="blk">29</td>
+            <td class="rdd">32</td>
+            <td class="blk">35</td>
+            <td class="grr">2to1</td>
+        </tr>
+        <tr>
+            <td class="rdd">1</td>
+            <td class="blk">4</td>
+            <td class="rdd">7</td>
+            <td class="blk">10</td>
+            <td class="blk">13</td>
+            <td class="rdd">16</td>
+            <td class="rdd">19</td>
+            <td class="blk">22</td>
+            <td class="rdd">25</td>
+            <td class="blk">28</td>
+            <td class="blk">31</td>
+            <td class="rdd">34</td>
+            <td class="grr">2to1</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="grr">1st12</td>
+            <td colspan="4" class="grr">2nd12</td>
+            <td colspan="4" class="grr">3rd12</td>
+            <td rowspan="2" class="grr"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="grr">1to18</td>
+            <td colspan="2" class="grr">EVEN</td>
+            <td colspan="2" class="rdd"></td>
+            <td colspan="2" class="blk"></td>
+            <td colspan="2" class="grr">ODD</td>
+            <td colspan="2" class="grr">19to36</td>
+        </tr>
+    </table>
+</body>
+</html>
